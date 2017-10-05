@@ -1,0 +1,21 @@
+{
+  "version": "0.1.1",
+  "name": "language-dana",
+  "description": "Atom language support for Dana",
+  "homepage": "https://atom.github.io/language-dana",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectdana/language-dana.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/projectdana/language-dana/issues"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  }
+}

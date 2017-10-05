@@ -1,0 +1,34 @@
+'.source.dn':
+  'For Loop':
+    'prefix': 'for'
+    'body': 'for (size_t ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}${3:++}) {\n\t${4:/* code */}\n}'
+  'While Loop':
+    'prefix': 'while'
+    'body': 'while (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+  'If Condition':
+    'prefix': 'if'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+  'If Else':
+    'prefix': 'ife'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else {\n\t${3:/* code */}\n}'
+  'If ElseIf':
+    'prefix': 'iff'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n}'
+  'If ElseIf Else':
+    'prefix': 'iffe'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n} else {\n\t${5:/* code */}\n}'
+  'void':
+    'prefix': 'void'
+    'body': 'void ${1:name}(${2:/* arguments */}) {\n\t${3:/* code */}\n}'
+  'any function':
+    'prefix': 'func'
+    'body': '${1:int} ${2:name}(${3:/* arguments */}) {\n\t${5:/* code */}\n\treturn ${4:0}\n}'
+  'component provides Type {...}':
+    'prefix': 'comp'
+    'body': 'component provides ${1:type_t} {\n\n}'
+  'interface Type{...}':
+    'prefix': 'interf'
+    'body': 'interface ${1:type_t} {\n\n}'
+  'data Type {...}':
+    'prefix': 'dat'
+    'body': 'data ${1:type_t} {\n\n}'
