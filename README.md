@@ -1,4 +1,4 @@
-# Dama language support in Atom
+# Dana language support in Atom
 
 Adds syntax highlighting and snippets to Dana files in Atom.
 
