@@ -2,14 +2,14 @@
   "version": "0.0.0",
   "name": "language-dana",
   "description": "Atom language support for Dana",
-  "homepage": "https://atom.github.io/language-dana",
+  "homepage": "https://github.com/projectdana/atom-language-dana",
   "repository": {
     "type": "git",
-    "url": "https://github.com/projectdana/language-dana.git"
+    "url": "https://github.com/projectdana/atom-language-dana"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/projectdana/language-dana/issues"
+    "url": "https://github.com/projectdana/atom-language-dana/issues"
   },
   "engines": {
     "atom": "*",
