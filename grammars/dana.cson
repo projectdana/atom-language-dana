@@ -16,7 +16,7 @@
     'include': '#storage_types'
   }
   {
-    'match': '\\b(const|static|transfer)\\b'
+    'match': '\\b(const|static|transfer|library)\\b'
     'name': 'storage.modifier.dana'
   }
   {
@@ -28,7 +28,7 @@
     'name': 'variable.other.readwrite.static.mac-classic.dana'
   }
   {
-    'match': '\\b(null|true|false)\\b'
+    'match': '\\b(null|true|false|this)\\b'
     'name': 'constant.language.dana'
   }
   {
@@ -36,11 +36,11 @@
     'name': 'keyword.instancing.dana'
   }
   {
-    'match': '\\b(component|provides|requires)\\b'
+    'match': '\\b(component|provides|requires|implementation)\\b'
     'name': 'keyword.component.dana'
   }
   {
-    'match': '\\b(data|record|interface)\\b'
+    'match': '\\b(data|interface|extends)\\b'
     'name': 'keyword.types.dana'
   }
   {
@@ -50,6 +50,22 @@
   {
     'match': '\\b(throw)\\b'
     'name': 'keyword.exceptions.dana'
+  }
+  {
+    'match': '\\b(clone|from)\\b'
+    'name': 'keyword.instancing.dana'
+  }
+  {
+    'match': '\\b(super)\\b'
+    'name': 'keyword.super.dana'
+  }
+  {
+    'match': '\\b(hastype|implements|typeof)\\b'
+    'name': 'keyword.reflect.dana'
+  }
+  {
+    'match': '\\b(eventsink|event|sinkevent|emitevent)\\b'
+    'name': 'keyword.events.dana'
   }
   {
     'match': '\\b(asynch::?!])\\b'
