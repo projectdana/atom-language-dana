@@ -16,7 +16,7 @@
     'include': '#storage_types'
   }
   {
-    'match': '\\b(const|static|transfer|library)\\b'
+    'match': '\\b(const|static|transfer|store|library)\\b'
     'name': 'storage.modifier.dana'
   }
   {
