@@ -16,7 +16,7 @@
     'include': '#storage_types'
   }
   {
-    'match': '\\b(const|static|transfer|store|library)\\b'
+    'match': '\\b(const|static|transfer|store|library|opt)\\b'
     'name': 'storage.modifier.dana'
   }
   {
@@ -52,7 +52,7 @@
     'name': 'keyword.exceptions.dana'
   }
   {
-    'match': '\\b(clone|from)\\b'
+    'match': '\\b(clone|rclone|delink|from)\\b'
     'name': 'keyword.instancing.dana'
   }
   {
@@ -60,7 +60,7 @@
     'name': 'keyword.super.dana'
   }
   {
-    'match': '\\b(hastype|implements|typeof)\\b'
+    'match': '\\b(hastype|implements|typeof|isset)\\b'
     'name': 'keyword.reflect.dana'
   }
   {
